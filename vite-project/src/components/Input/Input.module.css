@@ -1,0 +1,57 @@
+.wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6px;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+.label {
+  font-size: 13px;
+  color: #222;
+}
+
+.inputRow {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.input {
+  padding: 8px 38px 8px 10px; 
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  outline: none;
+  min-width: 220px;
+  font-size: 14px;
+}
+
+.input:disabled {
+  background: #f5f5f5;
+  color: #999;
+}
+
+.controls {
+  display: flex;
+  position: absolute;
+  right: 6px;
+  gap: 6px;
+  align-items: center;
+  height: 100%;
+}
+
+.iconButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 4px;
+  font-size: 14px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconButton:focus {
+  outline: 2px solid #4d90fe;
+  border-radius: 4px;
+}
